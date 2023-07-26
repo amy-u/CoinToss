@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Expecting src url as javascript file but given html file path -->
+        <script href="coinToss.js"></script>
+        <script type="text/javascript" src="/coinToss.js"></script>
+        <link rel="stylesheet" type="text/css" href="/coinRotation.css" />
+<script> </script>
+        <base href="/" /> 
+        <title> Coin Toss</title>
+    </head>
+    <body>
+        <div class="card">
+        <h1> Click to flip coin</h1>
+        <br>
+        <!-- <label>Number of input</label><br> -->
+        <!-- <input type="text" id="inPut" value="value"> -->
+        <br>
+        <div class="coin">
+            <p id="coin"> </p>
+        </div><br><br><br>
+        <button id="myBtn" type="button" onclick="coinFlip()">Click me!</button>
+    </div>
+    </body>
+</html>
